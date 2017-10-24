@@ -1,0 +1,38 @@
+{
+    "name": "yiidev/poo",
+    "description": "Poo PHP Application Platform based on Yii2 Framework",
+    "keywords": [
+		"yii2",
+        "poo",
+		"poodev",
+        "framework",
+		"bap",
+		"platform"
+    ],
+    "homepage": "http://www.poodev.com/",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Agus Suhartono",
+            "email": "agus.suhartono@gmail.com",
+            "homepage": "http://www.binexa.com/",
+            "role": "Founder and project lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/poodev/poo/issues?state=open",
+        "forum": "http://www.poodev.com/forum/",
+        "wiki": "http://www.poodev.com/wiki/",
+        "source": "https://github.com/poodev/poo"
+    },
+    "require": {
+		"php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.5",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+		"yiisoft/yii2-swiftmailer": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {"poo\\": "src/"}
+    }
+}
