@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @link http://www.poodev.com/
+ * @copyright Copyright (c) 2008 MPu Technology
+ * @license http://www.poodev.com/license/
+ */
+
 namespace poo\base;
 
 /**

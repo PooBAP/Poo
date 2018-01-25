@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @link http://www.poodev.com/
+ * @copyright Copyright (c) 2008 MPu Technology
+ * @license http://www.poodev.com/license/
+ */
+
 namespace poo\web;
 
 /**
@@ -10,5 +16,21 @@ namespace poo\web;
  */
 class Application extends \yii\web\Application
 {
-    
+
+    /**
+     * @inheritdoc
+     */
+    public function coreComponents()
+    {
+        $coreComponent = parent::coreComponents();
+        //.... Add and Change core component
+        if (isset($coreComponentp['formatter'])) {
+            unset($coreComponentp['formatter']);
+        }
+        $coreComponentp['formatter'] = [
+            'class' => 'poo\i18n\Formatter'
+        ];
+        return $coreComponent;
+    }
+
 }
