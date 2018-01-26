@@ -2,12 +2,12 @@
     "name": "poodev/poo",
     "description": "Poo PHP Application Platform based on Yii2 Framework",
     "keywords": [
-		"yii2",
+        "yii2",
         "poo",
-		"poodev",
+        "poodev",
         "framework",
-		"bap",
-		"platform"
+        "bap",
+        "platform"
     ],
     "homepage": "http://www.poodev.com/",
     "type": "library",
@@ -26,11 +26,12 @@
         "wiki": "http://www.poodev.com/wiki/",
         "source": "https://github.com/poodev/poo"
     },
+    "minimum-stability": "dev",
     "require": {
-		"php": ">=5.4.0",
+        "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.13",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-		"yiisoft/yii2-swiftmailer": "~2.0.0"
+        "yiisoft/yii2-swiftmailer": "~2.0.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -42,6 +43,8 @@
         "codeception/specify": "~0.4.3"
     },	
     "autoload": {
-        "psr-4": {"poo\\": "src/"}
+        "psr-4": {
+            "poo\\": "src/"
+        }
     }
 }
